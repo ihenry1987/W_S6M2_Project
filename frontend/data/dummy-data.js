@@ -9,7 +9,7 @@ const dummyData = [
     comments: [
       {
         id: 22,
-        username: "philzcoffee",
+        username: "philzcoffeee",
         text: "We've got more than just coffees!",
       },
       {
