@@ -14,7 +14,7 @@ server.use(express.static(path.join(__dirname, '../dist')))
 
 server.use(cors())
 
-server.use('/api/pics', picsRouter) // TODO: this router is not mocked in MSW
+server.use('/api/pics', picsRouter) // TODO: this router is not mocked in MS
 
 server.get('/api/todos', (req, res) => {
   res.json(Todo.getAll())
